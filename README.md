@@ -15,15 +15,19 @@ Follow these steps to get the CrowdFunding Dapp up and running on your local mac
 1. **Clone the Repository:**
     ```bash
     git clone https://github.com/flenex-io/Hotel-Dapp.git
+    ```
+
+2. **Change the Repository**
+    ```bash
     cd CrowdFunding
     ```
 
-2. **Install Dependencies:**
+3. **Install Dependencies:**
     ```bash
     npm install
     ```
 
-3. **Run the Application:**
+4. **Run the Application:**
     ```bash
     npm start
     ```
