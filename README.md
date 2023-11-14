@@ -10,7 +10,7 @@ Experience the Ethereum Room Booking DApp in action with our live demo [here](ht
 
 ## Getting Started
 
-Follow these steps to get the CrowdFunding Dapp up and running on your local machine:
+Follow these steps to get the Hotel Dapp up and running on your local machine:
 
 1. **Clone the Repository:**
     ```bash
@@ -19,7 +19,7 @@ Follow these steps to get the CrowdFunding Dapp up and running on your local mac
 
 2. **Change the Repository**
     ```bash
-    cd CrowdFunding
+    cd Hotel-Dapp
     ```
 
 3. **Install Dependencies:**
