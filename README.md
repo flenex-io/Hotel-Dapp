@@ -6,7 +6,7 @@ The Ethereum Room Booking DApp revolutionizes room booking by offering a decentr
 
 ## Demo
 
-Experience the Ethereum Room Booking DApp in action with our live demo [here](https://flenex-io.github.io/Book-Rooms/).
+Experience the Hotel Dapp in action with our live demo [here](https://flenex-io.github.io/Book-Rooms/).
 
 ## Getting Started
 
