@@ -8,10 +8,22 @@ The Ethereum Room Booking DApp revolutionizes room booking by offering a decentr
 
 Experience the Ethereum Room Booking DApp in action with our live demo [here](https://flenex-io.github.io/Book-Rooms/).
 
-## Prerequisites
+## Getting Started
 
-Before you dive in, make sure you have the following prerequisites:
+Follow these steps to get the CrowdFunding Dapp up and running on your local machine:
 
-- **Node.js**: Ensure you have Node.js installed.
-- **Metamask**: Install the Metamask browser extension for seamless Ethereum interaction.
-- **Hardhat**: Get Hardhat to compile and deploy smart contracts efficiently.
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/flenex-io/Hotel-Dapp.git
+    cd CrowdFunding
+    ```
+
+2. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Run the Application:**
+    ```bash
+    npm start
+    ```
