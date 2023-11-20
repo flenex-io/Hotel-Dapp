@@ -4,6 +4,8 @@
 
 The Ethereum Room Booking DApp revolutionizes room booking by offering a decentralized solution powered by the Ethereum blockchain. This DApp streamlines the room booking process, providing users with a seamless experience for booking rooms, checking room availability, viewing booked rooms, and checking out.
 
+You can access the live site of the Hotel Booking Dapp [here](https://hotel-dapp.netlify.app)
+
 ## Getting Started
 
 Follow these steps to get the Hotel Dapp up and running on your local machine:
