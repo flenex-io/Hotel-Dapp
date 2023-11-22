@@ -30,3 +30,5 @@ Follow these steps to get the Hotel Dapp up and running on your local machine:
     ```bash
     npm start
     ```
+
+## Open For Contributions 
