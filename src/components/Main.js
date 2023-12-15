@@ -68,7 +68,6 @@ const Main = ({ state }) => {
     fetchRoomCount();
   };
 
-
   return (
     <>
       <nav className="nav-bar">
@@ -88,27 +87,35 @@ const Main = ({ state }) => {
           </button>
         </div>
       </nav>
-      {showRoomCount && roomCount !== null && (
-        <p className="room-count">{roomCount} rooms available</p>
-      )}
+
+      {showRoomCount &&
+        roomCount !== null &&
+        alert(`${roomCount} rooms available`)}
       <p className="booked-status">{booked}</p>
-      <div className="content">
-        <p>
-          Aute ea veniam consectetur tempor sunt do sint culpa adipisicing
-          occaecat mollit minim elit. Sunt sint proident tempor <br />
-          sit veniam dolor. Adipisicing aliqua reprehenderit adipisicing ex
-          tempor qui esse eiusmod elit eu esse ad est. Nostrud ex ipsum velit id
-          occaecat <br /> mollit esse adipisicing velit culpa. Eiusmod fugiat
-          Lorem proident do esse laboris sit incididunt est ipsum nulla
-          exercitation. Duis exercitation ex id duis qui esse. <br />
-          Proident excepteur laborum exercitation sint consectetur irure
-          adipisicing incididunt tempor.
-        </p>
-        <div className="section">
-          <h4>Section Title</h4>
-          <p>This is a section of content within your layout.</p>
+
+      <main className="main-content">
+        <div className="container">
+          <div className="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div className="section">
+              <h4>Section Title</h4>
+              <p>This is a section of content within your layout.</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </main>
+
+      <footer className="footer">
+        <p>&copy; 2023 ETH ROOMS. All rights reserved.</p>
+      </footer>
     </>
   );
 };
