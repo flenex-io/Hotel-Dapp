@@ -1,37 +1,39 @@
-body {
-  background-color: #1f1f1f;
-  color: #fff;
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-  .main-container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .nav-bar {
   background-color: #333;
-  padding: 7px 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  color: #fff;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-title {
-  font-size: 24px;
+.nav-bar h3 {
   margin: 0;
-  color: #fff;
-}
-
-.nav-buttons {
-  display: flex;
+  font-size: 24px;
 }
 
 .nav-button {
@@ -42,7 +44,8 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-right: 15px;
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .nav-button:last-child {
@@ -53,81 +56,44 @@ body {
   background-color: #0056b3;
 }
 
-@media (max-width: 767px) {
-  .nav-button {
-    padding: 8px 16px;
-    margin-right: 10px;
-  }
-
-  .nav-title {
-    font-size: 22px;
-  }
+.main-content {
+  flex: 1; 
+  padding: 40px 0;
 }
 
-.mid-section {
-  line-height: 1.6;
-}
-
-.room-count {
-  font-size: 18px;
+.room-count,
+.booked-status {
+  text-align: center;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
-.room-details h4,
-.customer-reviews h4,
-.additional-info h4 {
-  font-size: 20px;
-  margin-bottom: 15px;
+.content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.room-details ul,
-.customer-reviews,
-.additional-info {
+.section {
   margin-top: 30px;
 }
 
-.room-details ul {
-  list-style: none;
-  padding: 0;
+.section h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.room-details ul li,
-.review {
-  margin-bottom: 15px;
-}
-
-.reviewer {
-  font-style: italic;
+.section p {
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .footer {
   text-align: center;
-  margin-top: 50px;
-  padding: 10px;
+  padding: 15px 0;
   background-color: #333;
   color: #fff;
-  font-size: 14px;
-}
-
-@media (max-width: 767px) {
-  .nav-button {
-    padding: 6px 12px;
-    margin-right: 8px;
-  }
-
-  .nav-title {
-    font-size: 20px;
-  }
-
-  .room-count {
-    font-size: 16px;
-    margin-bottom: 15px;
-  }
-
-  .room-details h4,
-  .customer-reviews h4,
-  .additional-info h4 {
-    font-size: 18px;
-    margin-bottom: 12px;
-  }
+  margin-bottom: 2px;
+  width: 100%;
 }
