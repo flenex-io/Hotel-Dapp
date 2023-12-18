@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import Main from "./components/Main";
 import abi from "./contracts/Hotel.json";
+import Main from "./components/Main";
 const ethers = require("ethers");
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   const [walletConnected, setWalletConnected] = useState(false);
 
   const connectWallet = async () => {
-    const contractAddress = "0xD29B761A405805fB502f8Aa0B829CaC3D2DB6679";
+    const contractAddress = "0xAD3B61ea3f432c4B5BAFDBa8E903eFC44428Fa53";
     const contractABI = abi.abi;
     try {
       const { ethereum } = window;
@@ -45,7 +45,9 @@ function App() {
   return (
     <div>
       {walletConnected ? (
-        <Main state={state} />
+        <>
+          <Main state={state}/>
+        </>
       ) : (
         <div className="App">
           <button onClick={connectWallet}>Connect Wallet</button>
