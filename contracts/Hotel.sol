@@ -2,8 +2,8 @@
 pragma solidity ^0.8.0;
 
 contract Hotel {
-    uint public constant maxRooms = 5;
-    uint roomsAvailable = maxRooms;
+    uint public constant maxRooms = 20;
+    uint public roomsAvailable = maxRooms;
     address payable owner = payable(0xF3bA650f3BB16dc176aa30fa2EB07Ec0cb7E1B26);
 
     mapping(address => bool) hasBooking;
@@ -14,6 +14,7 @@ contract Hotel {
     }
 
     function book() public payable roomsAvailableCheck {
+        require(!hasBooking[msg.sender], "You've already booked a room");
         owner.transfer(msg.value);
         hasBooking[msg.sender] = true;
         roomsAvailable--;
@@ -23,18 +24,13 @@ contract Hotel {
         return roomsAvailable;
     }
 
-    function hasBooked() public view returns (string memory) {
-        if (hasBooking[msg.sender]) {
-            return "You have a booking";
-        } else {
-            return "You do not have a booking";
-        }
+    function hasBooked() public view returns (bool) {
+        return hasBooking[msg.sender];
     }
 
-    function checkOut() public roomsAvailableCheck returns (string memory) {
+    function checkOut() public roomsAvailableCheck {
         require(hasBooking[msg.sender], "You don't have any booking");
         roomsAvailable++;
         hasBooking[msg.sender] = false;
-        return "Check Out Successfully";
     }
 }
