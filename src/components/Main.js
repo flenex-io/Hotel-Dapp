@@ -35,7 +35,7 @@ const Main = ({ state }) => {
       const roomCount = await contract.room();
       const parsedRoomCount = roomCount.toNumber();
       setRoomCount(parsedRoomCount);
-      
+
       if (parsedRoomCount !== null) {
         setShowRoomCount(true);
         alert(`${parsedRoomCount} rooms available`);
@@ -44,7 +44,7 @@ const Main = ({ state }) => {
       console.error("Error fetching room count:", error);
     }
   };
-  
+
 
   const checkBookedRoom = async () => {
     try {
