@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/media/jagjot/754e918e-a20d-43ad-a063-e00ef6501e4a/codes/Web 3.O/hotel/smart_contract/contracts/Hotel.sol": {
-      "lastModificationDate": 1695688699059,
-      "contentHash": "6afd259f10b8da38e1e3affed0352b5c",
+    "/media/jagjot/754e918e-a20d-43ad-a063-e00ef6501e4a/codes/Web 3.O/Dapp/hotel/contracts/Hotel.sol": {
+      "lastModificationDate": 1702662433399,
+      "contentHash": "6bdcafc828b66894f7a0f36246fda650",
       "sourceName": "contracts/Hotel.sol",
       "solcConfig": {
         "version": "0.8.0",
