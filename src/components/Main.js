@@ -479,7 +479,7 @@ const Main = ({ state }) => {
                             className="br-4 image-fit-cover"
                             height={48}
                             width={48}
-                            alt="Resorte Marinha Dourada"
+                            alt="Resorte XYZ"
                             src="https://fastui.cltpstatic.com/image/upload/w_300,h_300,fl_progressive,e_sharpen:80,c_fill/hotels/places/hotels/cms/4205/42054/images/image_42054_d1a5538b-e076-48d9-a4e4-2491f88fb11b.jpeg"
                             style={{
                               margin: "0px",
@@ -522,7 +522,7 @@ const Main = ({ state }) => {
                               }}
                             >
                               {" "}
-                              Resorte Marinha Dourada
+                              Resorte XYZ
                             </p>
                             <p
                               className="sc-gEvEer igvQEp"
@@ -688,7 +688,7 @@ const Main = ({ state }) => {
                               fontFamily: "__Inter_afabb0",
                             }}
                           >
-                            Resorte Marinha Dourada
+                            Resorte XYZ
                           </h3>
                           <div
                             className="sc-eldPxv py-1"
@@ -975,7 +975,7 @@ const Main = ({ state }) => {
                                 fontFamily: "__Inter_afabb0",
                               }}
                             >
-                              (962 reviews)
+                              (500+ reviews)
                             </p>
 
                           </div>
