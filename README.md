@@ -5,7 +5,7 @@
 The Ethereum Room Booking DApp revolutionizes room booking by offering a decentralized solution powered by the Ethereum blockchain. This DApp streamlines the room booking process, providing users with a seamless experience for booking rooms, checking room availability, viewing booked rooms, and checking out.
 
 ## Note
- The UI elements utilized in this project were not developed by me (flenex.io). Instead, the UI design was sourced from a hotel booking website as a reference for this demonstration.
+ The UI elements utilized in this project were not developed by me. Instead, the UI design was sourced from a hotel booking website as a reference for this demonstration.
 
 However, I take pride in implementing the core functionality of this DApp, focusing on the integration with the Ethereum blockchain, including smart contracts, transaction handling, and decentralized processes.
 
